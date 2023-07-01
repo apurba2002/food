@@ -53,6 +53,7 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
+
     }
 
     #navbar div {
@@ -88,8 +89,11 @@
         width: 15%;
         color: azure;
         list-style: none;
+        cursor: pointer;
+
 
     }
+
 
     #nav-btn {
         display: flex;
@@ -107,6 +111,11 @@
         border-radius: 10px;
         border: 1px solid black
     }
+
+
+
+
+
 
 
 
@@ -205,6 +214,28 @@
 
 
 
+
+
+
+
+
+    @keyframes baner-img {
+        from {
+            left: 700px;
+        }
+
+        to {
+            left: 0px;
+        }
+    }
+
+    .baner-img-animation {
+        animation: baner-img;
+        animation-duration: 0.5s;
+    }
+
+
+
     #baner2 {
         width: 90%;
         margin-left: 5%;
@@ -259,7 +290,7 @@
         width: 90%;
         margin-left: 5%;
         position: relative;
-        top: -120px;
+        top: -250px;
 
     }
 
@@ -283,7 +314,7 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
-        margin-top: 100px;
+        margin-top: 50px;
 
     }
 
@@ -400,10 +431,37 @@
 
 
 
+
+
+
+
+
+
+
+
+    @keyframes appanimation {
+        from {
+            left: -800px;
+        }
+
+        to {
+            left: 0px;
+        }
+    }
+
+
+
+    .appanimation {
+        animation: appanimation;
+        animation-duration: 0.5s;
+    }
+
     #app {
         width: 90%;
         display: flex;
         justify-content: center;
+        position: relative;
+        top: -180px;
     }
 
     #app div {
@@ -440,6 +498,40 @@
         background: rgb(248, 194, 94);
         margin-top: 20px;
     }
+
+
+
+
+
+
+
+
+
+
+
+
+    #menu {
+        width: 90%;
+        margin-left: 5%;
+        position: relative;
+        top: -100px;
+    }
+
+    #menu p {
+        color: rgb(248, 194, 94);
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+    }
+    #menu h1{
+        color: white;
+        font-size: 30pt;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-bottom: 20px;
+        text-align: center;
+        
+    }
+
 
 
 
