@@ -47,8 +47,129 @@
         background: rgb(248, 194, 94);
         color: white;
         border-radius: 10px;
+        border: 1px solid black
+    }
+
+
+
+
+
+
+    #baner1{
+        width: 90%;
+        margin-left: 5%;
+    }
+    #baner1 {
+        display: flex;
+        justify-content: space-between;
+    }
+    #baner1 #baner1-txt{
+        width: 30%;
+    }
+    #baner1-txt{
+        color: white;
+        position: relative;
+        top: 114px;
+    }
+    #baner1-txt h1{
+        font-family:Verdana, Geneva, Tahoma, sans-serif ;
+        font-size: 30pt;
+    }
+    #baner1-txt #y-txt{
+        font-size: 12pt;
+        color:  rgb(248, 194, 94) ;
+
+    }
+    #baner1-txt button{
+        width: 30%;
+        height: 40px;
+        margin-top: 32px;
+     
+        background: rgb(248, 194, 94);
+        color: white;
+        border-radius: 10px;
+        border: 1px solid black
+    }
+    #baner1-img{
+        width: 60%;
+    }
+    #short-txt{
+        color: lightgray;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 20px;
+    }
+    #baner1-img button{
+        width: 30%;
+        height: 62px;
+       
+     
+        background: white;
+        color: black;
+        border-radius: 10px;
+        border: 1px solid white;
+        position: relative;
+        top: -370px;
+        float: right;
+    
+    }
+    #baner1-img img{
+        position: relative;
+        z-index: -10;
+    }
+    #leaf{
+        position: relative;
+        top: -220px;
+    }
+
+
+
+    #baner2{
+        width: 90%;
+        margin-left: 5%;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        top: -250px;
+        
+        
+    }
+    #baner2 img{
+      
+    }
+    #baner2 div{
+        width: 45%;
+        position: relative;
+        top: 40px;
+    }
+    #baner2 div p{
+        font-size: 12px;
+        color: rgb(248, 194, 94);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+    #baner2 div h1{
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30pt;
+        
+    }
+    #baner2 div button{
+        width: 30%;
+        height: 50px;
+       
+     
+        background:transparent;
+        color:rgb(248, 194, 94);
+        border-radius: 10px;
+        border: 1px solid rgb(248, 194, 94);
+        
+
     }
 }
+
+
 *{
     margin: 0;
     padding: 0;
