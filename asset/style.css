@@ -1,45 +1,103 @@
-@media (min-width:768px){
-    #navbar{
+@media (min-width:768px) {
+    @keyframes leaf {
+        from {
+
+            height: 0px;
+        }
+
+        to {
+
+            height: 300px;
+        }
+
+    }
+
+    @keyframes oder {
+        from {
+
+            width: 0%;
+        }
+
+        to {
+
+            width: 30%;
+        }
+
+    }
+
+    @keyframes txt {
+        from {
+            left: -465px;
+
+        }
+
+        to {
+            left: 0px;
+
+        }
+
+    }
+
+    @keyframes img {
+        from {
+            opacity: 0%;
+        }
+
+        to {
+            opacity: 100%;
+        }
+
+    }
+
+    #navbar {
         width: 100%;
         display: flex;
         justify-content: space-between;
     }
+
     #navbar div {
         width: 30%;
 
-        
+
     }
-    #navbar div img{
+
+    #navbar div img {
         margin-left: 5%;
         padding-top: 20px;
     }
-    #nav-head{
+
+    #nav-head {
         display: flex;
-        justify-content:left;
+        justify-content: left;
     }
-    #nav-head h1{
+
+    #nav-head h1 {
         padding-top: 32px;
         padding-left: 10px;
         color: azure;
-        font-family:Verdana, Geneva, Tahoma, sans-serif;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-    #nav-link ul{
+
+    #nav-link ul {
         display: flex;
         justify-content: space-between;
         padding-top: 42px;
     }
-    #nav-link ul li{
+
+    #nav-link ul li {
         width: 15%;
         color: azure;
         list-style: none;
 
     }
-    #nav-btn{
+
+    #nav-btn {
         display: flex;
         justify-content: right;
-        
+
     }
-    #nav-btn button{
+
+    #nav-btn button {
         width: 30%;
         height: 40px;
         margin-top: 32px;
@@ -55,55 +113,71 @@
 
 
 
-    #baner1{
+    #baner1 {
         width: 90%;
         margin-left: 5%;
     }
+
     #baner1 {
         display: flex;
         justify-content: space-between;
     }
-    #baner1 #baner1-txt{
+
+    #baner1 #baner1-txt {
         width: 30%;
     }
-    #baner1-txt{
+
+    #baner1-txt {
         color: white;
         position: relative;
         top: 114px;
+        animation: txt;
+        animation-duration: 1.5s;
+        z-index: -10;
+        left: 0px;
     }
-    #baner1-txt h1{
-        font-family:Verdana, Geneva, Tahoma, sans-serif ;
+
+    #baner1-txt h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 30pt;
     }
-    #baner1-txt #y-txt{
+
+    #baner1-txt #y-txt {
         font-size: 12pt;
-        color:  rgb(248, 194, 94) ;
+        color: rgb(248, 194, 94);
 
     }
-    #baner1-txt button{
+
+    #baner1-txt button {
         width: 30%;
         height: 40px;
         margin-top: 32px;
-     
+
         background: rgb(248, 194, 94);
         color: white;
         border-radius: 10px;
         border: 1px solid black
     }
-    #baner1-img{
+
+    #baner1-img {
         width: 60%;
+        animation: img;
+        animation-duration: 4.5s;
+
     }
-    #short-txt{
+
+    #short-txt {
         color: lightgray;
         font-size: 12px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         padding-top: 20px;
     }
-    #baner1-img button{
+
+    #baner1-img button {
         width: 30%;
         height: 62px;
-       
-     
+
+
         background: white;
         color: black;
         border-radius: 10px;
@@ -111,69 +185,272 @@
         position: relative;
         top: -370px;
         float: right;
-    
+        animation: oder;
+        animation-duration: 3.5s;
+
     }
-    #baner1-img img{
+
+    #baner1-img img {
         position: relative;
         z-index: -10;
     }
-    #leaf{
+
+    #leaf {
         position: relative;
         top: -220px;
+        animation: leaf;
+        animation-duration: 2.5s;
+
     }
 
 
 
-    #baner2{
+    #baner2 {
         width: 90%;
         margin-left: 5%;
         display: flex;
         justify-content: space-between;
         position: relative;
         top: -250px;
-        
-        
+
+
     }
-    #baner2 img{
-      
-    }
-    #baner2 div{
+
+    #baner2 img {}
+
+    #baner2 div {
         width: 45%;
         position: relative;
         top: 40px;
     }
-    #baner2 div p{
+
+    #baner2 div p {
         font-size: 12px;
         color: rgb(248, 194, 94);
         padding-top: 20px;
         padding-bottom: 20px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
-    #baner2 div h1{
+
+    #baner2 div h1 {
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 30pt;
-        
-    }
-    #baner2 div button{
-        width: 30%;
-        height: 50px;
-       
-     
-        background:transparent;
-        color:rgb(248, 194, 94);
-        border-radius: 10px;
-        border: 1px solid rgb(248, 194, 94);
-        
 
     }
+
+    #baner2 div button {
+        width: 30%;
+        height: 50px;
+
+
+        background: transparent;
+        color: rgb(248, 194, 94);
+        border-radius: 10px;
+        border: 1px solid rgb(248, 194, 94);
+
+
+    }
+
+
+
+
+    #service {
+        width: 90%;
+        margin-left: 5%;
+        position: relative;
+        top: -120px;
+
+    }
+
+    #service p {
+        color: rgb(248, 194, 94);
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 12px;
+        width: 100%;
+        text-align: center;
+    }
+
+    #service h1 {
+        width: 100%;
+        text-align: center;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 30pt;
+        color: white;
+    }
+
+    #slider {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 100px;
+
+    }
+
+    #slider .sliderbtn1 {
+        width: 10%;
+        display: flex;
+        align-items: center;
+
+    }
+
+    #slider .sliderbtn1 button {
+        width: 50%;
+        height: 50px;
+        border-radius: 100%;
+        border: 1px solid black;
+        background: transparent;
+
+
+    }
+
+    #slider .sliderbtn2 {
+        width: 10%;
+        display: flex;
+        align-items: center;
+        justify-content: right;
+    }
+
+    #slider .sliderbtn2 button {
+        width: 50%;
+        height: 50px;
+        border-radius: 100%;
+        border: 1px solid black;
+        background: transparent;
+    }
+
+
+    #slide1 {
+        width: 80%;
+
+        height: 300px;
+        border: 0px;
+        display: flex;
+        justify-content: space-between;
+
+    }
+
+    #slide1 div {
+        width: 30%;
+        height: 300px;
+        background: rgb(7, 8, 22);
+        border: 1px solid rgb(248, 194, 94);
+        border-radius: 10px;
+        box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.575);
+    }
+
+    #slide1 div img {
+        width: 50%;
+        margin-left: 25%;
+        height: 150px;
+        margin-top: 30px;
+    }
+
+    #slide1 div p {
+        color: lightgray;
+    }
+
+    #slide2 {
+        width: 80%;
+
+        height: 300px;
+        border: 0px;
+        display: none;
+        justify-content: space-between;
+
+
+    }
+
+    #slide2 div {
+        width: 30%;
+        height: 300px;
+        background: rgb(7, 8, 22);
+        border: 1px solid rgb(248, 194, 94);
+        border-radius: 10px;
+        box-shadow: 0px 3px 3px 3px rgba(0, 0, 0, 0.575);
+    }
+
+    #slide2 div img {
+        width: 50%;
+        margin-left: 25%;
+        height: 150px;
+        margin-top: 30px;
+    }
+
+    #slide2 div p {
+        color: lightgray;
+    }
+
+    @keyframes slideanimation {
+        from {
+            width: 0%;
+        }
+
+        to {
+            width: 80%;
+        }
+    }
+
+    .slideanimation {
+        animation: slideanimation;
+        animation-duration: 1s;
+
+    }
+
+
+
+
+    #app {
+        width: 90%;
+        display: flex;
+        justify-content: center;
+    }
+
+    #app div {
+        width: 35%;
+        position: relative;
+        top: 155px;
+    }
+
+    #app #app-img {
+        width: 60%;
+        position: relative;
+        top: 0px;
+    }
+
+    #app p {
+        color: rgb(248, 194, 94);
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    #app h1 {
+        color: white;
+        font-size: 30pt;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-bottom: 20px;
+    }
+
+    #app button {
+        width: 50%;
+        height: 50px;
+        border-radius: 10px;
+        border: 1px solid black;
+        background: rgb(248, 194, 94);
+        margin-top: 20px;
+    }
+
+
+
 }
 
 
-*{
+* {
     margin: 0;
     padding: 0;
 }
-body{
+
+body {
     background: rgb(24, 24, 24);
 }

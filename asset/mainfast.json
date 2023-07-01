@@ -1,0 +1,22 @@
+{
+    "name": "foody",
+    "short_name": "foody",
+    "description": "A simple HTML page",
+    "start_url": "/",
+    "display": "standalone",
+    "background_color": "#ffffff",
+    "theme_color": "#ffffff",
+    "icons": [
+      {
+        "src": "image/foodylogo.png",
+        "sizes": "192x192",
+        "type": "image/png"
+      },
+      {
+        "src": "image/foodylogo.png",
+        "sizes": "512x512",
+        "type": "image/png"
+      }
+    ]
+  }
+  
