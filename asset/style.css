@@ -509,7 +509,22 @@
 
 
 
+    @keyframes menu {
+        from{
+           width:0%;
+           opacity: 0%;
 
+        }
+        to{
+            width:100%;
+            opacity: 100%;
+        }
+    }
+    .menuanimation{
+        animation: menu;
+        animation-duration: 1s;
+        
+    }
     #menu {
         width: 90%;
         margin-left: 5%;
@@ -531,6 +546,141 @@
         text-align: center;
         
     }
+    
+   
+    #popular{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    #popular div{
+        width: 30%;
+        height: 300px;
+        background: green;
+    }
+    #popular div h1{
+        text-align: justify;
+        font-size: 22px;
+        margin-bottom: 0px;
+        margin-left: 5%;
+        margin-top: 5px;
+    }
+    #popular div p{
+        text-align: justify;
+        margin-left: 5%;
+    }
+    #bergar{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    #bergar div{
+        width: 30%;
+        height: 300px;
+        background: green;
+    }
+    #bergar div h1{
+        text-align: justify;
+        font-size: 22px;
+        margin-bottom: 0px;
+        margin-left: 5%;
+        margin-top: 5px;
+    }
+    #bergar div p{
+        text-align: justify;
+        margin-left: 5%;
+    }
+    #plater{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    #plater div{
+        width: 30%;
+        height: 300px;
+        background: green;
+    }
+    #plater div h1{
+        text-align: justify;
+        font-size: 22px;
+        margin-bottom: 0px;
+        margin-left: 5%;
+        margin-top: 5px;
+    }
+    #plater div p{
+        text-align: justify;
+        margin-left: 5%;
+    }
+    #chicken{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    #chicken div{
+        width: 30%;
+        height: 300px;
+        background: green;
+    }
+    #chicken div h1{
+        text-align: justify;
+        font-size: 22px;
+        margin-bottom: 0px;
+        margin-left: 5%;
+        margin-top: 5px;
+    }
+    #chicken div p{
+        text-align: justify;
+        margin-left: 5%;
+    }
+    #desart{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    #desart div{
+        width: 30%;
+        height: 300px;
+        background: green;
+    }
+    #desart div h1{
+        text-align: justify;
+        font-size: 22px;
+        margin-bottom: 0px;
+        margin-left: 5%;
+        margin-top: 5px;
+    }
+    #desart div p{
+        text-align: justify;
+        margin-left: 5%;
+    }
+    #drink{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+    #drink div{
+        width: 30%;
+        height: 300px;
+        background: green;
+    }
+    #drink div h1{
+        text-align: justify;
+        font-size: 22px;
+        margin-bottom: 0px;
+        margin-left: 5%;
+        margin-top: 5px;
+    }
+    #drink div p{
+        text-align: justify;
+        margin-left: 5%;
+    }
+  
 
 
 

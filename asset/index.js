@@ -26,3 +26,9 @@ document.getElementById('app').addEventListener('mouseover',function(){
 document.getElementById('app').addEventListener('mouseout',function(){
     document.getElementById('app-img').classList.remove('appanimation')
 })
+document.getElementById('menu').addEventListener('mouseover',function(){
+    document.getElementById('menugrp').classList.add('menuanimation')
+})
+document.getElementById('menu').addEventListener('mouseout',function(){
+    document.getElementById('menugrp').classList.remove('menuanimation')
+})
