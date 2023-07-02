@@ -29,6 +29,27 @@ document.getElementById('app').addEventListener('mouseout',function(){
 document.getElementById('menu').addEventListener('mouseover',function(){
     document.getElementById('menugrp').classList.add('menuanimation')
 })
-document.getElementById('menu').addEventListener('mouseout',function(){
-    document.getElementById('menugrp').classList.remove('menuanimation')
+document.getElementById('review').addEventListener('mouseover',function(){
+    document.getElementById('person').classList.add('reviewperson')
+})
+document.getElementById('review').addEventListener('mouseout',function(){
+    document.getElementById('person').classList.remove('reviewperson')
+})
+document.getElementById('review').addEventListener('mouseover',function(){
+    document.getElementById('ri').classList.add('reviewimg')
+})
+document.getElementById('review').addEventListener('mouseout',function(){
+    document.getElementById('ri').classList.remove('reviewimg')
+})
+document.getElementById('review').addEventListener('mouseover',function(){
+    document.getElementById('offer').classList.add('reviewbtn')
+})
+document.getElementById('review').addEventListener('mouseout',function(){
+    document.getElementById('offer').classList.remove('reviewbtn')
+})
+document.getElementById('review').addEventListener('mouseover',function(){
+    document.getElementById('rtxt').classList.add('reviewtxt')
+})
+document.getElementById('review').addEventListener('mouseout',function(){
+    document.getElementById('rtxt').classList.remove('reviewtxt')
 })

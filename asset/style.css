@@ -510,21 +510,24 @@
 
 
     @keyframes menu {
-        from{
-           width:0%;
-           opacity: 0%;
+        from {
+            width: 0%;
+            opacity: 0%;
 
         }
-        to{
-            width:100%;
+
+        to {
+            width: 100%;
             opacity: 100%;
         }
     }
-    .menuanimation{
+
+    .menuanimation {
         animation: menu;
         animation-duration: 1s;
-        
+
     }
+
     #menu {
         width: 90%;
         margin-left: 5%;
@@ -538,149 +541,361 @@
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;
     }
-    #menu h1{
+
+    #menu h1 {
         color: white;
         font-size: 30pt;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         margin-bottom: 20px;
         text-align: center;
+
+    }
+
+
+    #popular {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    #popular div {
+        width: 30%;
+        height: 300px;
+        background: black;
+        box-shadow: 0px 03px 3px 3px rgba(0, 0, 0, 0.589);
+        border: 1px solid rgb(248, 194, 94);cursor: pointer;
+        
+    }
+    #popular div:hover{
+        
+        position: relative;
+        top: -20px;
+    }
+
+    #popular div h1 {
+        text-align: justify;
+        font-size: 22px;
+        margin-bottom: 0px;
+        margin-left: 5%;
+        margin-top: 5px;
+    }
+
+    #popular div p {
+        text-align: justify;
+        margin-left: 5%;
+    }
+
+    #bergar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    #bergar div {
+        width: 30%;
+        height: 300px;
+        box-shadow: 0px 03px 3px 3px rgba(0, 0, 0, 0.589);
+        border: 1px solid rgb(248, 194, 94);
+        background: black;cursor: pointer;
+    }
+    #bergar div:hover{
+        
+        position: relative;
+        top: -20px;
+    }
+
+    #bergar div h1 {
+        text-align: justify;
+        font-size: 22px;
+        margin-bottom: 0px;
+        margin-left: 5%;
+        margin-top: 5px;
+    }
+
+    #bergar div p {
+        text-align: justify;
+        margin-left: 5%;
+    }
+
+    #plater {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    #plater div {
+        width: 30%;
+        height: 300px;
+        box-shadow: 0px 03px 3px 3px rgba(0, 0, 0, 0.589);
+        border: 1px solid rgb(248, 194, 94);
+        background: black;cursor: pointer;
+    }
+    #plater div:hover{
+        
+        position: relative;
+        top: -20px;
+    }
+
+    #plater div h1 {
+        text-align: justify;
+        font-size: 22px;
+        margin-bottom: 0px;
+        margin-left: 5%;
+        margin-top: 5px;
+    }
+
+    #plater div p {
+        text-align: justify;
+        margin-left: 5%;
+    }
+
+    #chicken {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    #chicken div {
+        width: 30%;
+        height: 300px;
+        box-shadow: 0px 03px 3px 3px rgba(0, 0, 0, 0.589);
+        border: 1px solid rgb(248, 194, 94);
+        background: black;cursor: pointer;
+    }
+    #chicken div:hover{
+        
+        position: relative;
+        top: -20px;
+    }
+
+    #chicken div h1 {
+        text-align: justify;
+        font-size: 22px;
+        margin-bottom: 0px;
+        margin-left: 5%;
+        margin-top: 5px;
+    }
+
+    #chicken div p {
+        text-align: justify;
+        margin-left: 5%;
+    }
+
+    #desart {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    #desart div {
+        width: 30%;
+        height: 300px;
+        box-shadow: 0px 03px 3px 3px rgba(0, 0, 0, 0.589);
+        border: 1px solid rgb(248, 194, 94);
+        background: black;cursor: pointer;
+    }
+    #desart div:hover{
+        
+        position: relative;
+        top: -20px;
+    }
+
+    #desart div h1 {
+        text-align: justify;
+        font-size: 22px;
+        margin-bottom: 0px;
+        margin-left: 5%;
+        margin-top: 5px;
+    }
+
+    #desart div p {
+        text-align: justify;
+        margin-left: 5%;
+    }
+
+    #drink {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 50px;
+    }
+
+    #drink div {
+        width: 30%;
+        height: 300px;
+        box-shadow: 0px 03px 3px 3px rgba(0, 0, 0, 0.589);
+        border: 1px solid rgb(248, 194, 94);
+        background: black;
+        cursor: pointer;
+    }
+    #drink div:hover{
+        
+        position: relative;
+        top: -20px;
+    }
+
+    #drink div h1 {
+        text-align: justify;
+        font-size: 22px;
+        margin-bottom: 0px;
+        margin-left: 5%;
+        margin-top: 5px;
+    }
+
+    #drink div p {
+        text-align: justify;
+        margin-left: 5%;
+    }
+
+
+
+
+
+
+
+
+
+    @keyframes reviewperson {
+        from{
+            left: -500px;
+
+        }
+        to{
+            left: 0px;
+        }
+    }
+    
+
+    @keyframes reviewtxt {
+        from{
+            width: 0%;
+
+        }
+        to{
+           width: 100%;
+        }
+    }
+    
+    @keyframes reviewimg {
+        from{
+            opacity: 0%;
+
+        }
+        to{
+            opacity: 100%;
+        }
+    }
+
+    @keyframes reviewbtn {
+        from{
+           width: 0%;
+
+        }
+        to{
+            width: 20%;
+        }
+    }
+    .reviewperson{
+        animation: reviewperson;
+        animation-duration: 1s;
+    }
+    .reviewtxt{
+        animation: reviewtxt;
+        animation-duration: 2s;
+    }
+    .reviewimg{
+        animation: reviewimg;
+        animation-duration: 5s;
+    }
+    .reviewbtn{
+        animation: reviewbtn;
+        animation-duration: 1s;
+    }
+
+
+
+
+    #review{
+        width: 90%;
+        margin-left: 5%;
         
     }
     
-   
-    #popular{
+    #review p{
+        text-align: center;
+        font-size: 12px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: rgb(248, 194, 94);
+        width: 100%;
+        margin: 0;
+    }
+    #review h1{
+        text-align: center;
+        font-size: 30pt;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color:white;
+        width: 100%;
+        margin: 0;
+    }
+    #review #offer{
+        width: 20%;
+        height: 60px;
+       float: right;
+       position: relative;
+       top: -550px;
+        border: 0;
+        background: azure;
+        border: 1px solid black;
+        border-radius: 15px;
+        
+    }
+    #ri{
+        position: relative;
+        z-index: -10;
+    }
+    #review #grp{
         width: 100%;
         display: flex;
         justify-content: space-between;
-        margin-top: 50px;
+        margin-top: 100px;
+        position: relative;
+        top: -130px;
     }
-    #popular div{
-        width: 30%;
-        height: 300px;
-        background: green;
-    }
-    #popular div h1{
-        text-align: justify;
-        font-size: 22px;
-        margin-bottom: 0px;
-        margin-left: 5%;
-        margin-top: 5px;
-    }
-    #popular div p{
-        text-align: justify;
-        margin-left: 5%;
-    }
-    #bergar{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        margin-top: 50px;
-    }
-    #bergar div{
-        width: 30%;
-        height: 300px;
-        background: green;
-    }
-    #bergar div h1{
-        text-align: justify;
-        font-size: 22px;
-        margin-bottom: 0px;
-        margin-left: 5%;
-        margin-top: 5px;
-    }
-    #bergar div p{
-        text-align: justify;
-        margin-left: 5%;
-    }
-    #plater{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        margin-top: 50px;
-    }
-    #plater div{
-        width: 30%;
-        height: 300px;
-        background: green;
-    }
-    #plater div h1{
-        text-align: justify;
-        font-size: 22px;
-        margin-bottom: 0px;
-        margin-left: 5%;
-        margin-top: 5px;
-    }
-    #plater div p{
-        text-align: justify;
-        margin-left: 5%;
-    }
-    #chicken{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        margin-top: 50px;
-    }
-    #chicken div{
-        width: 30%;
-        height: 300px;
-        background: green;
-    }
-    #chicken div h1{
-        text-align: justify;
-        font-size: 22px;
-        margin-bottom: 0px;
-        margin-left: 5%;
-        margin-top: 5px;
-    }
-    #chicken div p{
-        text-align: justify;
-        margin-left: 5%;
-    }
-    #desart{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        margin-top: 50px;
-    }
-    #desart div{
-        width: 30%;
-        height: 300px;
-        background: green;
-    }
-    #desart div h1{
-        text-align: justify;
-        font-size: 22px;
-        margin-bottom: 0px;
-        margin-left: 5%;
-        margin-top: 5px;
-    }
-    #desart div p{
-        text-align: justify;
-        margin-left: 5%;
-    }
-    #drink{
-        width: 100%;
-        display: flex;
-        justify-content: space-between;
-        margin-top: 50px;
-    }
-    #drink div{
-        width: 30%;
-        height: 300px;
-        background: green;
-    }
-    #drink div h1{
-        text-align: justify;
-        font-size: 22px;
-        margin-bottom: 0px;
-        margin-left: 5%;
-        margin-top: 5px;
-    }
-    #drink div p{
-        text-align: justify;
-        margin-left: 5%;
+    #review #grp div{
+        width: 50%;
+        position: relative;
+        top: 110px;
+
     }
   
+    #review #grp div h1{
+        font-size: 25pt;
+        padding-top: 30px;
+        padding-bottom: 30px;
+      
+
+    }
+    #review #grp div p{
+        color: lightgray;
+    }
+    #review #grp div img{
+       margin-left: 25%;
+       border-radius: 100%;
+    }
+    #review #grp div button{
+        width: 40%;
+        height: 40px;
+        margin-left: 30%;
+        margin-top: 50px;
+        border: 0;
+        background: rgb(248, 194, 94);
+    }
+
 
 
 
