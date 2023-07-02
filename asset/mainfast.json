@@ -2,7 +2,7 @@
     "name": "foody",
     "short_name": "foody",
     "description": "A simple HTML page",
-    "start_url": "/",
+    "start_url": "https://apurba2002.github.io/food/",
     "display": "standalone",
     "background_color": "#ffffff",
     "theme_color": "#ffffff",
