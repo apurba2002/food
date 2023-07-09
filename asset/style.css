@@ -795,6 +795,7 @@
     #review {
         width: 90%;
         margin-left: 5%;
+        display: none;
 
     }
 
@@ -883,6 +884,7 @@
         margin-left: 5%;
         display: flex;
         justify-content: space-between;
+        margin-top: 100px;
     }
 
     #contact :first-child {
@@ -916,7 +918,7 @@
     }
     #contact :first-child :nth-child(2) :nth-child(4){
         width: 30%;
-        background:  rgb(248, 194, 94)5;
+        background:rgb(248, 194, 94);
     }
     #contact :nth-child(2){
         width: 45%;
@@ -949,7 +951,7 @@
     }
     #location :first-child h1{
         color: white;
-        font-size: 30pt;
+        font-size: 60pt;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         margin-bottom: 20px;
         margin-top: 160px;
@@ -979,7 +981,7 @@
     #about {
         width: 90%;
         margin-left: 5%;
-        display: flex;
+        display: none;
         justify-content: space-between;
         margin-top: 100px;
     }
@@ -1010,6 +1012,66 @@
         line-height: 27px;
         
     }
+
+
+
+
+
+
+
+
+
+
+
+    #baner3{
+        width: 90%;
+        margin-left: 5%;
+        display: flex;
+        justify-content: space-between;
+        height: 500px;
+        background: rgb(8, 20, 24);
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.253);
+        position: relative;
+        top: 100px;
+    }
+    #baner3 :first-child{
+        width: 50%;
+
+    }
+    #baner3 :first-child img{
+        width: 100%;
+        height: 500px;
+        position: relative;
+        left: 10%;
+    }
+    #baner3 :nth-child(2){
+        width: 50%;
+    }
+    #baner3 :nth-child(2) h1{
+        font-size: 30pt;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        position: relative;
+        top:100px;
+    }
+    #baner3 :nth-child(2) p{
+        font-size: 16px;
+        width: 80%;
+        color: lightgray;
+        position: relative;
+        top: 120px;
+    }
+    #baner3 :nth-child(2) button {
+        width: 30%;
+        padding: 20px;
+        color: white;
+        background:rgb(248, 194, 94) ;
+        border: 1px solid rgb(248, 194, 94);
+        position: relative;
+        top: 140px;
+    }
+
+
   
 
 
