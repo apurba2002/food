@@ -9,13 +9,15 @@
 
     #navbar div {
         width: 30%;
+       
 
 
     }
 
     #navbar div img {
-        margin-left: 5%;
+        margin-left: 30%;
         padding-top: 20px;
+       
     }
 
     #nav-head {
@@ -24,7 +26,8 @@
     }
 
     #nav-head h1 {
-        padding-top: 32px;
+        font-size: 40pt;
+        padding-top: 20px;
         padding-left: 10px;
         color: azure;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -33,14 +36,16 @@
     #nav-link ul {
         display: flex;
         justify-content: space-between;
-        padding-top: 42px;
+        padding-top: 55px;
     }
+
 
     #nav-link ul li {
         width: 15%;
         color: azure;
         list-style: none;
         cursor: pointer;
+        font-size: 12pt;
 
 
     }
@@ -49,16 +54,18 @@
     #nav-btn {
         display: flex;
         justify-content: right;
+        margin-left: 0%;
+       
 
     }
 
     #nav-btn button {
-        width: 30%;
-        height: 40px;
+        width: 40%;
+        height: 60px;
         margin-top: 32px;
-        margin-right: 5%;
+        margin-right: 30%;
         background: rgb(248, 194, 94);
-        color: white;
+      
         border-radius: 10px;
         border: 1px solid black
     }
@@ -74,8 +81,9 @@
 
 
     #baner1 {
-        width: 90%;
-        margin-left: 5%;
+        margin-top: 200px;
+        width: 80%;
+        margin-left: 10%;
     }
 
     #baner1 {
@@ -84,13 +92,13 @@
     }
 
     #baner1 #baner1-txt {
-        width: 30%;
+        width: 50%;
     }
 
     #baner1-txt {
         color: white;
         position: relative;
-        top: 114px;
+        top: 200px;
         animation: txt;
         animation-duration: 1.5s;
         z-index: -10;
@@ -99,7 +107,8 @@
 
     #baner1-txt h1 {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 30pt;
+        font-size: 40pt;
+        width: 100%;
     }
 
     #baner1-txt #y-txt {
@@ -109,18 +118,18 @@
     }
 
     #baner1-txt button {
-        width: 30%;
-        height: 40px;
+        width: 40%;
+        height: 60px;
         margin-top: 32px;
 
         background: rgb(248, 194, 94);
-        color: white;
+    
         border-radius: 10px;
         border: 1px solid black
     }
 
     #baner1-img {
-        width: 60%;
+        width: 50%;
         animation: img;
         animation-duration: 4.5s;
 
@@ -188,8 +197,8 @@
 
 
     #baner2 {
-        width: 90%;
-        margin-left: 5%;
+        width: 80%;
+        margin-left: 10%;
         display: flex;
         justify-content: space-between;
         position: relative;
@@ -202,8 +211,7 @@
 
     #baner2 div {
         width: 45%;
-        position: relative;
-        top: 40px;
+        
     }
 
     #baner2 div p {
@@ -217,8 +225,12 @@
     #baner2 div h1 {
         color: white;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 30pt;
+        font-size: 40pt;
 
+    }
+    #baner2-txt{
+        position: relative;
+        top:200px;
     }
 
     #baner2 div button {
@@ -238,10 +250,10 @@
 
 
     #service {
-        width: 90%;
-        margin-left: 5%;
+        width: 80%;
+        margin-left: 10%;
         position: relative;
-        top: -250px;
+        top: -150px;
 
     }
 
@@ -257,7 +269,7 @@
         width: 100%;
         text-align: center;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        font-size: 30pt;
+        font-size: 40pt;
         color: white;
     }
 
@@ -305,7 +317,7 @@
     #slide1 {
         width: 80%;
 
-        height: 300px;
+        height: 500px;
         border: 0px;
         display: flex;
         justify-content: space-between;
@@ -314,7 +326,7 @@
 
     #slide1 div {
         width: 30%;
-        height: 300px;
+        height: 500px;
         background: rgb(7, 8, 22);
         border: 1px solid rgb(248, 194, 94);
         border-radius: 10px;
@@ -324,7 +336,7 @@
     #slide1 div img {
         width: 50%;
         margin-left: 25%;
-        height: 150px;
+        height: 250px;
         margin-top: 30px;
     }
 
@@ -335,7 +347,7 @@
     #slide2 {
         width: 80%;
 
-        height: 300px;
+        height: 500px;
         border: 0px;
         display: none;
         justify-content: space-between;
@@ -345,7 +357,7 @@
 
     #slide2 div {
         width: 30%;
-        height: 300px;
+        height: 500px;
         background: rgb(7, 8, 22);
         border: 1px solid rgb(248, 194, 94);
         border-radius: 10px;
@@ -355,7 +367,7 @@
     #slide2 div img {
         width: 50%;
         margin-left: 25%;
-        height: 150px;
+        height: 250px;
         margin-top: 30px;
     }
 
@@ -408,25 +420,31 @@
     }
 
     #app {
-        width: 90%;
+        width: 80%;
         display: flex;
-        justify-content: center;
+        justify-content: space-between;
         position: relative;
-        top: -180px;
+        top: 0px;
+        margin-left: 10%;
     }
 
     #app div {
         width: 35%;
         position: relative;
-        top: 155px;
+        top: 250px;
     }
 
     #app #app-img {
         width: 60%;
         position: relative;
         top: 0px;
-        display: flex;
-        justify-content: center;
+       
+     
+    }
+    #app #app-img  img{
+    
+        width: 100%;
+        height: 800px;
     }
 
     #app p {
@@ -438,7 +456,7 @@
 
     #app h1 {
         color: white;
-        font-size: 30pt;
+        font-size: 40pt;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         margin-bottom: 20px;
     }
@@ -482,10 +500,10 @@
     }
 
     #menu {
-        width: 90%;
-        margin-left: 5%;
+        width: 80%;
+        margin-left: 10%;
         position: relative;
-        top: -100px;
+        top: 100px;
     }
 
     #menu p {
@@ -497,7 +515,7 @@
 
     #menu h1 {
         color: white;
-        font-size: 30pt;
+        font-size: 40pt;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         margin-bottom: 20px;
         text-align: center;
@@ -509,12 +527,12 @@
         width: 100%;
         display: flex;
         justify-content: space-between;
-        margin-top: 50px;
+        margin-top: 100px;
     }
 
     #popular div {
         width: 30%;
-        height: 300px;
+        height: 500px;
         background: black;
         box-shadow: 0px 03px 3px 3px rgba(0, 0, 0, 0.589);
         border: 1px solid rgb(248, 194, 94);
@@ -530,7 +548,7 @@
 
     #popular div h1 {
         text-align: justify;
-        font-size: 22px;
+        font-size: 30pt;
         margin-bottom: 0px;
         margin-left: 5%;
         margin-top: 5px;
@@ -550,7 +568,7 @@
 
     #bergar div {
         width: 30%;
-        height: 300px;
+        height: 500px;
         box-shadow: 0px 03px 3px 3px rgba(0, 0, 0, 0.589);
         border: 1px solid rgb(248, 194, 94);
         background: black;
@@ -565,7 +583,7 @@
 
     #bergar div h1 {
         text-align: justify;
-        font-size: 22px;
+        font-size: 30pt;
         margin-bottom: 0px;
         margin-left: 5%;
         margin-top: 5px;
@@ -585,7 +603,7 @@
 
     #plater div {
         width: 30%;
-        height: 300px;
+        height: 500px;
         box-shadow: 0px 03px 3px 3px rgba(0, 0, 0, 0.589);
         border: 1px solid rgb(248, 194, 94);
         background: black;
@@ -600,7 +618,7 @@
 
     #plater div h1 {
         text-align: justify;
-        font-size: 22px;
+        font-size: 30pt;
         margin-bottom: 0px;
         margin-left: 5%;
         margin-top: 5px;
@@ -620,7 +638,7 @@
 
     #chicken div {
         width: 30%;
-        height: 300px;
+        height: 500px;
         box-shadow: 0px 03px 3px 3px rgba(0, 0, 0, 0.589);
         border: 1px solid rgb(248, 194, 94);
         background: black;
@@ -635,7 +653,7 @@
 
     #chicken div h1 {
         text-align: justify;
-        font-size: 22px;
+        font-size: 30pt;
         margin-bottom: 0px;
         margin-left: 5%;
         margin-top: 5px;
@@ -655,7 +673,7 @@
 
     #desart div {
         width: 30%;
-        height: 300px;
+        height: 500px;
         box-shadow: 0px 03px 3px 3px rgba(0, 0, 0, 0.589);
         border: 1px solid rgb(248, 194, 94);
         background: black;
@@ -670,7 +688,7 @@
 
     #desart div h1 {
         text-align: justify;
-        font-size: 22px;
+        font-size: 30pt;
         margin-bottom: 0px;
         margin-left: 5%;
         margin-top: 5px;
@@ -690,7 +708,7 @@
 
     #drink div {
         width: 30%;
-        height: 300px;
+        height: 500px;
         box-shadow: 0px 03px 3px 3px rgba(0, 0, 0, 0.589);
         border: 1px solid rgb(248, 194, 94);
         background: black;
@@ -705,7 +723,7 @@
 
     #drink div h1 {
         text-align: justify;
-        font-size: 22px;
+        font-size: 30pt;
         margin-bottom: 0px;
         margin-left: 5%;
         margin-top: 5px;
@@ -880,15 +898,16 @@
 
 
     #contact {
-        width: 90%;
-        margin-left: 5%;
+        width: 80%;
+        margin-left: 10%;
         display: flex;
         justify-content: space-between;
-        margin-top: 100px;
+        margin-top: 300px;
     }
 
     #contact :first-child {
         width: 45%;
+        margin-top: 100px
 
 
 
@@ -911,6 +930,7 @@
         margin-bottom: 20px;
         border: 1px solid black;
         border-radius: 15px;
+        margin-top: 0px;
     
     } 
     #contact :first-child :nth-child(2) :nth-child(3){
@@ -926,7 +946,8 @@
     }
     #contact :nth-child(2) img{
         width: 100%;
-        height: 400px;
+        height: 800px;
+        margin-top: 0px;
     }
 
 
@@ -939,11 +960,11 @@
 
 
     #location {
-        width: 90%;
-        margin-left: 5%;
-        display: flex;
+        width: 80%;
+        margin-left: 10%;
+        display: none;
         justify-content: space-between;
-        margin-top: 100px;
+        margin-top: 200px;
     }
     #location :first-child {
         width: 45%;
@@ -1024,15 +1045,15 @@
 
 
     #baner3{
-        width: 90%;
-        margin-left: 5%;
+        width: 80%;
+        margin-left: 10%;
         display: flex;
         justify-content: space-between;
         height: 500px;
         background: rgb(8, 20, 24);
         box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.253);
         position: relative;
-        top: 100px;
+        top: 200px;
     }
     #baner3 :first-child{
         width: 50%;
