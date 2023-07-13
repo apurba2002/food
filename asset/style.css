@@ -7,17 +7,21 @@
 
     }
 
+    #navbarres {
+        display: none;
+    }
+
     #navbar div {
         width: 30%;
-       
+
 
 
     }
 
     #navbar div img {
-        margin-left: 30%;
+
         padding-top: 20px;
-       
+
     }
 
     #nav-head {
@@ -25,13 +29,21 @@
         justify-content: left;
     }
 
+    #nav-head img {
+        width: 10%;
+        height: 80px;
+        margin-left: 30%;
+    }
     #nav-head h1 {
         font-size: 40pt;
-        padding-top: 20px;
+        padding-top: 25px;
         padding-left: 10px;
+      
         color: azure;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
     }
+
+
 
     #nav-link ul {
         display: flex;
@@ -46,16 +58,27 @@
         list-style: none;
         cursor: pointer;
         font-size: 12pt;
+        text-align: center;
 
 
     }
 
+    #nav-link ul li a {
+        text-decoration: none;
+        width: 100%;
+        color: azure;
+        text-align: center;
+    }
+
+    #nav-link ul li a:hover {
+        text-decoration: underline;
+    }
 
     #nav-btn {
         display: flex;
         justify-content: right;
         margin-left: 0%;
-       
+
 
     }
 
@@ -65,11 +88,14 @@
         margin-top: 32px;
         margin-right: 30%;
         background: rgb(248, 194, 94);
-      
+
         border-radius: 10px;
         border: 1px solid black
     }
 
+    #burgericon {
+        display: none;
+    }
 
 
 
@@ -82,8 +108,7 @@
 
     #baner1 {
         margin-top: 200px;
-        width: 80%;
-        margin-left: 10%;
+
     }
 
     #baner1 {
@@ -123,7 +148,7 @@
         margin-top: 32px;
 
         background: rgb(248, 194, 94);
-    
+
         border-radius: 10px;
         border: 1px solid black
     }
@@ -162,13 +187,17 @@
     #baner1-img img {
         position: relative;
         z-index: -10;
+        height: 700px;
     }
 
     #leaf {
         position: relative;
-        top: -220px;
+        top: -450px;
         animation: leaf;
         animation-duration: 2.5s;
+        width: 30%;
+        aspect-ratio: 5/4;
+        left: -15%;
 
     }
 
@@ -197,8 +226,7 @@
 
 
     #baner2 {
-        width: 80%;
-        margin-left: 10%;
+
         display: flex;
         justify-content: space-between;
         position: relative;
@@ -207,11 +235,14 @@
 
     }
 
-    #baner2 img {}
+    #baner2 img {
+        width: 50%;
+        height: 800px;
+    }
 
     #baner2 div {
         width: 45%;
-        
+
     }
 
     #baner2 div p {
@@ -228,9 +259,10 @@
         font-size: 40pt;
 
     }
-    #baner2-txt{
+
+    #baner2-txt {
         position: relative;
-        top:200px;
+        top: 200px;
     }
 
     #baner2 div button {
@@ -250,8 +282,7 @@
 
 
     #service {
-        width: 80%;
-        margin-left: 10%;
+
         position: relative;
         top: -150px;
 
@@ -420,12 +451,12 @@
     }
 
     #app {
-        width: 80%;
+
         display: flex;
         justify-content: space-between;
         position: relative;
         top: 0px;
-        margin-left: 10%;
+
     }
 
     #app div {
@@ -438,11 +469,12 @@
         width: 60%;
         position: relative;
         top: 0px;
-       
-     
+
+
     }
-    #app #app-img  img{
-    
+
+    #app #app-img img {
+
         width: 100%;
         height: 800px;
     }
@@ -501,8 +533,7 @@
     }
 
     #menu {
-        width: 80%;
-        margin-left: 10%;
+
         position: relative;
         top: 100px;
     }
@@ -899,8 +930,7 @@
 
 
     #contact {
-        width: 80%;
-        margin-left: 10%;
+
         display: flex;
         justify-content: space-between;
         margin-top: 300px;
@@ -909,9 +939,6 @@
     #contact :first-child {
         width: 45%;
         margin-top: 100px
-
-
-
     }
 
     #contact :first-child h1 {
@@ -921,7 +948,8 @@
         width: 100%;
         margin-bottom: 20px;
     }
-    #contact :first-child :nth-child(2){
+
+    #contact :first-child :nth-child(2) {
         width: 100%;
     }
 
@@ -932,20 +960,24 @@
         border: 1px solid black;
         border-radius: 15px;
         margin-top: 0px;
-    
-    } 
-    #contact :first-child :nth-child(2) :nth-child(3){
+
+    }
+
+    #contact :first-child :nth-child(2) :nth-child(3) {
         padding-bottom: 100PX;
     }
-    #contact :first-child :nth-child(2) :nth-child(4){
+
+    #contact :first-child :nth-child(2) :nth-child(4) {
         width: 30%;
-        background:rgb(248, 194, 94);
+        background: rgb(248, 194, 94);
     }
-    #contact :nth-child(2){
+
+    #contact :nth-child(2) {
         width: 45%;
-        
+
     }
-    #contact :nth-child(2) img{
+
+    #contact :nth-child(2) img {
         width: 100%;
         height: 800px;
         margin-top: 0px;
@@ -961,17 +993,18 @@
 
 
     #location {
-        width: 80%;
-        margin-left: 10%;
+
         display: none;
         justify-content: space-between;
         margin-top: 200px;
     }
+
     #location :first-child {
         width: 45%;
- 
+
     }
-    #location :first-child h1{
+
+    #location :first-child h1 {
         color: white;
         font-size: 60pt;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -980,17 +1013,20 @@
         width: 100%;
         text-align: right;
     }
-    #location :first-child p{
-        color:  rgb(248, 194, 94);
+
+    #location :first-child p {
+        color: rgb(248, 194, 94);
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 16px;
         text-align: right;
         width: 100%;
-       
+
     }
-    #location :nth-child(2){
+
+    #location :nth-child(2) {
         width: 45%;
     }
+
     #location :nth-child(2) iframe {
         width: 100%;
         height: 450px;
@@ -1007,24 +1043,29 @@
         justify-content: space-between;
         margin-top: 100px;
     }
+
     #about :first-child {
         width: 100%;
     }
-    #about :first-child h1{
+
+    #about :first-child h1 {
         width: 100%;
         font-size: 30pt;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         text-align: center;
         color: white;
     }
-    #about :first-child :nth-child(2){
+
+    #about :first-child :nth-child(2) {
         width: 100%;
         font-size: 12px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
-        color:  rgb(248, 194, 94);
+        color: rgb(248, 194, 94);
         margin-bottom: 20px;
-        text-align: center;    }
-    #about :first-child p{
+        text-align: center;
+    }
+
+    #about :first-child p {
         width: 100%;
         font-size: 16px;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
@@ -1032,7 +1073,7 @@
         text-align: center;
         word-spacing: 5px;
         line-height: 27px;
-        
+
     }
 
 
@@ -1045,9 +1086,8 @@
 
 
 
-    #baner3{
-        width: 80%;
-        margin-left: 10%;
+    #baner3 {
+
         display: flex;
         justify-content: space-between;
         height: 500px;
@@ -1056,92 +1096,104 @@
         position: relative;
         top: 200px;
     }
-    #baner3 :first-child{
+
+    #baner3 :first-child {
         width: 50%;
 
     }
-    #baner3 :first-child img{
+
+    #baner3 :first-child img {
         width: 100%;
         height: 500px;
         position: relative;
         left: 10%;
     }
-    #baner3 :nth-child(2){
+
+    #baner3 :nth-child(2) {
         width: 50%;
     }
-    #baner3 :nth-child(2) h1{
+
+    #baner3 :nth-child(2) h1 {
         font-size: 30pt;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         color: white;
         position: relative;
-        top:80px;
+        top: 80px;
     }
-    #baner3 :nth-child(2) p{
+
+    #baner3 :nth-child(2) p {
         font-size: 16pt;
         width: 80%;
         color: lightgray;
         position: relative;
         top: 100px;
     }
+
     #baner3 :nth-child(2) button {
         width: 30%;
         padding: 20px;
         color: white;
-        background:rgb(248, 194, 94) ;
+        background: rgb(248, 194, 94);
         border: 1px solid rgb(248, 194, 94);
         position: relative;
         top: 140px;
     }
 
 
-  
 
 
 
 
-    #footer{
-        width: 80%;
-        margin-left: 10%;
+
+    #footer {
+
         display: flex;
         justify-content: space-between;
         position: relative;
         top: 400px;
         margin-bottom: 500px;
     }
-    .footer-veg-img{
+
+    .footer-veg-img {
         width: 10%;
         position: relative;
         top: 700px;
-  
+
     }
-    .footer-brand{
+
+    .footer-brand {
         width: 20%;
 
     }
-    .footer-brand-heading{
+
+    .footer-brand-heading {
         color: white;
         font-size: 25pt;
         width: 100%;
 
     }
-    .footer-brand-txt{
+
+    .footer-brand-txt {
         color: lightgray;
         font-size: 16pt;
         margin-top: 20px;
         width: 100%;
         margin-bottom: 40px;
     }
-    .footer-quick-link{
+
+    .footer-quick-link {
         width: 20%;
 
     }
-    .footer-quick-link-heading{
+
+    .footer-quick-link-heading {
         color: white;
         font-size: 25pt;
         width: 100%;
 
     }
-    .footer-quick-link-link{
+
+    .footer-quick-link-link {
         color: lightgray;
         font-size: 16pt;
         text-decoration: none;
@@ -1149,10 +1201,12 @@
         display: block;
         margin-top: 20px;
     }
-    .footer-important-link{
+
+    .footer-important-link {
         width: 20%;
     }
-    .footer-important-link-link{
+
+    .footer-important-link-link {
         color: lightgray;
         font-size: 16pt;
         text-decoration: none;
@@ -1160,20 +1214,24 @@
         display: block;
         margin-top: 20px;
     }
-    .footer-important-link-heading{
+
+    .footer-important-link-heading {
         color: white;
         font-size: 25pt;
         width: 100%;
     }
-    .footer-information{
+
+    .footer-information {
         width: 20%;
     }
-    .footer-information-heading{
+
+    .footer-information-heading {
         color: white;
         font-size: 25pt;
         width: 100%;
     }
-    .footer-information-txt{
+
+    .footer-information-txt {
         color: lightgray;
         font-size: 16pt;
         margin-top: 20px;
@@ -1191,4 +1249,784 @@
 
 body {
     background: rgb(24, 24, 24);
+    
+
+}
+#wap{
+    width: 80%;
+    margin-left: 10%;
+}
+
+
+
+
+@media (max-width: 766px) {
+
+
+    #navbar {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        background: rgb(248, 194, 94);
+        height: 52px;
+       
+       
+
+
+    }
+
+    #navbar div {
+        width: 50%;
+
+
+
+    }
+
+    #nav-link {
+        display: none;
+    }
+
+    #nav-btn {
+        display: none;
+    }
+
+    #nav-head {
+        display: flex;
+        justify-content: left;
+    }
+
+    #nav-head img {
+        width: 20%;
+        height: 30px;
+        padding-top: 8px;
+        margin-left: 15%;
+    }
+
+    #nav-head h1 {
+        font-size: 20pt;
+        padding-top: 5px;
+        padding-left: 10px;
+        width: 60%;
+        color: azure;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+    }
+
+    #burgericon img {
+       
+    }
+
+    #navbarres {
+        width: 100%;
+        background: rgb(248, 194, 94);
+      
+        display:none;
+       height: 350px;
+    
+    }
+    #b{
+        width: 20%;
+        aspect-ratio: 1/1;
+        padding-top: 5px;
+        margin-left: 65%;
+        margin-right: 15%;
+ 
+    }
+    #c{
+        height: 20px;
+        width: 10%;
+        padding-top: 15px;
+        margin-left: 75%;
+        margin-right: 15%;
+        display: none;
+    }
+    .show{
+        display: block;
+       
+    }
+
+
+
+    #navbarres ul li {
+        list-style: none;
+        width: 100%;
+        text-align: center;
+        padding-top: 20px;
+        color: white;
+        padding-bottom: 20px;
+    }
+
+    #navbarres ul li a {
+        text-decoration: none;
+        color: white;
+    }
+
+
+
+    #baner1 {
+        margin-top: 200px;
+
+        display: block;
+
+    }
+
+    #baner1 #baner1-txt {
+        width: 100%;
+        color: white;
+        position: relative;
+        top: 15 0px;
+
+        z-index: 10;
+        left: 0px;
+    }
+
+    #baner1-txt h1 {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 40pt;
+        width: 100%;
+    }
+
+    #baner1-txt #y-txt {
+        font-size: 12pt;
+        color: rgb(248, 194, 94);
+
+    }
+
+    #short-txt {
+        color: lightgray;
+        font-size: 12pt;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        padding-top: 20px;
+    }
+
+    #baner1-txt button {
+        width: 40%;
+        height: 60px;
+        margin-top: 32px;
+
+        background: rgb(248, 194, 94);
+
+        border-radius: 10px;
+        border: 1px solid black
+    }
+
+    #baner1-img {
+        width: 100%;
+        position: relative;
+        z-index: -10;
+        top: -387px;
+        opacity: 30%;
+
+
+
+    }
+
+    #baner1-img button {
+        width: 40%;
+        height: 62px;
+
+
+        background: white;
+        color: black;
+        border-radius: 10px;
+        border: 1px solid white;
+        position: relative;
+        top: -690px;
+        float: right;
+        display: none;
+
+
+    }
+
+    #leaf {
+        position: relative;
+        top: -585px;
+        opacity: 60%;
+        width: 100%;
+        height: 300px;
+
+    }
+
+
+
+
+
+
+    #baner2 {
+
+
+        position: relative;
+        top: -250px;
+
+
+    }
+
+    #baner2 div {
+        width: 100%;
+
+    }
+
+    #baner2 div p {
+        font-size: 16pt;
+        color: rgb(248, 194, 94);
+        padding-top: 20px;
+        padding-bottom: 20px;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    #baner2 div h1 {
+        color: white;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        font-size: 40pt;
+
+    }
+
+    #baner2-txt {
+        position: relative;
+        top: -500px;
+    }
+
+    #baner2 div button {
+        width: 40%;
+        height: 50px;
+
+
+        background: transparent;
+        color: rgb(248, 194, 94);
+        border-radius: 10px;
+        border: 1px solid rgb(248, 194, 94);
+
+
+    }
+
+    #baner2 img {
+        width: 100%;
+        position: relative;
+        top: -200px;
+
+        height: 500px;
+        opacity: 50%;
+        z-index: -10;
+    }
+
+    #service {
+        display: none;
+    }
+
+
+
+
+    #app {
+
+
+        position: relative;
+        top: 0px;
+
+    }
+
+    #app div {
+        width: 100%;
+        position: relative;
+        top: -600px;
+    }
+
+    #app #app-img {
+        width: 100%;
+        position: relative;
+        top: -600px;
+
+    }
+
+    #app #app-img img {
+
+        width: 100%;
+        height: 500px;
+
+    }
+
+
+    #app p {
+        color: rgb(248, 194, 94);
+        font-size: 16pt;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        line-height: 40px;
+
+    }
+
+    #app h1 {
+        color: white;
+        font-size: 40pt;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-bottom: 20px;
+    }
+
+    #app button {
+        width: 50%;
+        height: 50px;
+        border-radius: 10px;
+        border: 1px solid black;
+        background: rgb(248, 194, 94);
+        margin-top: 20px;
+    }
+
+
+
+
+
+
+
+    #menu {
+
+        position: relative;
+        top: -400px;
+    }
+
+    #menu p {
+        color: rgb(248, 194, 94);
+        font-size: 12pt;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+    }
+
+    #menu h1 {
+        color: white;
+        font-size: 40pt;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        margin-bottom: 20px;
+
+
+    }
+
+    #popular {
+        width: 100%;
+
+        margin-top: 100px;
+    }
+
+    #popular div {
+        width: 100%;
+        height: 550px;
+        background: black;
+        box-shadow: 0px 03px 3px 3px rgba(0, 0, 0, 0.589);
+        border: 1px solid rgb(248, 194, 94);
+        cursor: pointer;
+        margin-bottom: 50px;
+
+    }
+
+    #popular div h1 {
+        text-align: justify;
+        font-size: 30pt;
+        margin-bottom: 0px;
+        margin-left: 5%;
+        margin-top: 5px;
+    }
+
+    #popular div p {
+        text-align: justify;
+        margin-left: 5%;
+    }
+
+    #bergar {
+        width: 100%;
+
+        margin-top: 50px;
+    }
+
+    #bergar div {
+        width: 100%;
+        height: 550px;
+        box-shadow: 0px 03px 3px 3px rgba(0, 0, 0, 0.589);
+        border: 1px solid rgb(248, 194, 94);
+        background: black;
+        cursor: pointer;
+        margin-bottom: 50px;
+    }
+
+    #bergar div h1 {
+        text-align: justify;
+        font-size: 30pt;
+        margin-bottom: 0px;
+        margin-left: 5%;
+        margin-top: 5px;
+    }
+
+    #bergar div p {
+        text-align: justify;
+        margin-left: 5%;
+    }
+
+    #plater {
+        width: 100%;
+
+        margin-top: 50px;
+    }
+
+    #plater div {
+        width: 100%;
+        height: 550px;
+        box-shadow: 0px 03px 3px 3px rgba(0, 0, 0, 0.589);
+        border: 1px solid rgb(248, 194, 94);
+        background: black;
+        cursor: pointer;
+        margin-bottom: 50px;
+    }
+
+    #plater div h1 {
+        text-align: justify;
+        font-size: 30pt;
+        margin-bottom: 0px;
+        margin-left: 5%;
+        margin-top: 5px;
+    }
+
+    #plater div p {
+        text-align: justify;
+        margin-left: 5%;
+    }
+
+    #chicken {
+        width: 100%;
+
+        margin-top: 50px;
+    }
+
+    #chicken div {
+        width: 100%;
+        height: 550px;
+        box-shadow: 0px 03px 3px 3px rgba(0, 0, 0, 0.589);
+        border: 1px solid rgb(248, 194, 94);
+        background: black;
+        cursor: pointer;
+        margin-bottom: 50px;
+    }
+
+
+
+    #chicken div h1 {
+        text-align: justify;
+        font-size: 30pt;
+        margin-bottom: 0px;
+        margin-left: 5%;
+        margin-top: 5px;
+    }
+
+    #chicken div p {
+        text-align: justify;
+        margin-left: 5%;
+    }
+
+    #desart {
+        width: 100%;
+
+        margin-top: 50px;
+    }
+
+    #desart div {
+        width: 100%;
+        height: 550px;
+        margin-bottom: 50px;
+        box-shadow: 0px 03px 3px 3px rgba(0, 0, 0, 0.589);
+        border: 1px solid rgb(248, 194, 94);
+        background: black;
+        cursor: pointer;
+    }
+
+
+
+    #desart div h1 {
+        text-align: justify;
+        font-size: 30pt;
+        margin-bottom: 0px;
+        margin-left: 5%;
+        margin-top: 5px;
+    }
+
+    #desart div p {
+        text-align: justify;
+        margin-left: 5%;
+    }
+
+    #drink {
+        width: 100%;
+
+        margin-top: 50px;
+    }
+
+    #drink div {
+        width: 100%;
+        height: 500px;
+        box-shadow: 0px 03px 3px 3px rgba(0, 0, 0, 0.589);
+        border: 1px solid rgb(248, 194, 94);
+        background: black;
+        cursor: pointer;
+        margin-top: 50px;
+    }
+
+
+
+    #drink div h1 {
+        text-align: justify;
+        font-size: 30pt;
+        margin-bottom: 0px;
+        margin-left: 5%;
+        margin-top: 5px;
+    }
+
+    #drink div p {
+        text-align: justify;
+        margin-left: 5%;
+    }
+
+
+
+    #location {
+        display: none;
+    }
+
+    #review {
+        display: none;
+    }
+
+    #about {
+        display: none;
+    }
+
+
+
+
+
+    #contact {
+
+
+        position: relative;
+        top: -350px;
+    }
+
+    #contact :first-child {
+        width: 100%;
+        margin-top: 100px
+    }
+
+    #contact :first-child h1 {
+        font-size: 40pt;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    #contact :first-child :nth-child(2) {
+        width: 100%;
+    }
+
+    #contact :first-child :nth-child(2) input {
+        width: 100%;
+
+        padding-top: 20px;
+        padding-bottom: 20px;
+        margin-bottom: 20px;
+        border: 1px solid black;
+        border-radius: 15px;
+        margin-top: 0px;
+
+    }
+
+    #contact :first-child :nth-child(2) :nth-child(3) {
+        padding-bottom: 100PX;
+    }
+
+    #contact :first-child :nth-child(2) :nth-child(4) {
+        width: 40%;
+        background: rgb(248, 194, 94);
+    }
+
+    #contact :nth-child(2) {
+        width: 100%;
+
+
+
+    }
+
+    #contact :nth-child(2) img {
+        width: 100%;
+        height: 500px;
+        margin-top: 0px;
+        position: relative;
+        top: -550px;
+        opacity: 40%;
+        z-index:
+            -10;
+        display: none;
+    }
+
+
+
+    #baner3 {
+
+
+        height: 700px;
+        background: rgb(8, 20, 24);
+        box-shadow: 3px 3px 3px 3px rgba(0, 0, 0, 0.253);
+        position: relative;
+        top: -220px;
+
+    }
+
+    #baner3 :first-child {
+        width: 100%;
+
+    }
+
+    #baner3 :first-child img {
+        width: 100%;
+        aspect-ratio: 4/3;
+        position: relative;
+        top: -90px;
+        left: -80px;
+
+        opacity: 50%;
+
+    }
+
+    #baner3 :nth-child(2) {
+        width: 100%;
+
+    }
+
+    #baner3 :nth-child(2) h1 {
+        font-size: 30pt;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        position: relative;
+        top: -200px;
+        text-align: center;
+    }
+
+    #baner3 :nth-child(2) p {
+        font-size: 16pt;
+
+        color: lightgray;
+        position: relative;
+        top: -150px;
+        text-align: center;
+    }
+
+    #baner3 :nth-child(2) button {
+        width: 40%;
+        padding: 20px;
+        color: white;
+        background: rgb(248, 194, 94);
+        border: 1px solid rgb(248, 194, 94);
+        position: relative;
+        top: -100px;
+        margin-left: 30%
+    }
+
+
+
+
+    #footer {
+
+
+        position: relative;
+        top: -90px;
+        margin-bottom: 500px;
+        height: 500px;
+    }
+
+    .footer-veg-img {
+        width: 10%;
+        position: relative;
+        top: 700px;
+        display: none;
+
+    }
+
+    .footer-brand {
+        width: 100%;
+
+    }
+
+    .footer-brand-heading {
+        color: white;
+        font-size: 25pt;
+        width: 100%;
+
+    }
+
+    .footer-brand-txt {
+        color: lightgray;
+        font-size: 16pt;
+        margin-top: 20px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+    .footer-quick-link {
+        width: 100%;
+
+    }
+
+    .footer-quick-link-heading {
+        color: white;
+        font-size: 25pt;
+        width: 100%;
+
+    }
+
+    .footer-quick-link-link {
+        color: lightgray;
+        font-size: 16pt;
+        text-decoration: none;
+        width: 100%;
+        display: block;
+        margin-top: 20px;
+    }
+
+    .footer-important-link {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .footer-important-link-link {
+        color: lightgray;
+        font-size: 16pt;
+        text-decoration: none;
+        width: 100%;
+        display: block;
+        margin-top: 20px;
+    }
+
+    .footer-important-link-heading {
+        color: white;
+        font-size: 25pt;
+        width: 100%;
+    }
+
+    .footer-information {
+        width: 100%;
+        margin-top: 50px;
+    }
+
+    .footer-information-heading {
+        color: white;
+        font-size: 25pt;
+        width: 100%;
+    }
+
+    .footer-information-txt {
+        color: lightgray;
+        font-size: 16pt;
+        margin-top: 20px;
+        width: 100%;
+        margin-bottom: 40px;
+    }
+
+
+
+
+
+
+
 }
