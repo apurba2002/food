@@ -30,4 +30,15 @@ c.addEventListener('click',()=>{
     b.style.display="block"
     
 })
-
+document.getElementById("baner1btn").addEventListener("click",()=>{
+    window.location.href="#bergar"
+})
+document.getElementById("baner3btn").addEventListener("click",()=>{
+    window.location.href="#menu"
+})
+document.getElementById("baner2btn").addEventListener("click",()=>{
+    window.location.href='#plater'
+})
+document.getElementById("appbtn").addEventListener("click",()=>{
+    window.location.href='https://play.google.com/store/games?pli=1'
+})

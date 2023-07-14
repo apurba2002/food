@@ -1383,6 +1383,7 @@ body {
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         font-size: 40pt;
         width: 100%;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.329);
     }
 
     #baner1-txt #y-txt {
@@ -1396,6 +1397,7 @@ body {
         font-size: 12pt;
         font-family: Verdana, Geneva, Tahoma, sans-serif;
         padding-top: 20px;
+        text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.329);
     }
 
     #baner1-txt button {
